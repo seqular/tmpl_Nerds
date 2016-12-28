@@ -1,0 +1,29 @@
+*{margin:0;padding: 0;}
+
+body{
+	width: 1200px;
+	height: 2256px;
+}
+
+#logo{
+	float:left;
+	margin-left: 150px;
+	margin-top:25px;
+	background-image: url('../img/nerds.png');
+	background-repeat: no-repeat;
+	width:140px;
+	height: 56px;
+}
+
+#text_menu{
+	float:right;
+	margin-top:62px;
+	text-transform: uppercase;
+}
+.topMenuItem{
+	display:inline;
+	margin-left:45px;
+	font-weight: bold;
+	font-family: 'Arial';
+	
+}
