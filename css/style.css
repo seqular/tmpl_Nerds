@@ -5,6 +5,12 @@ body{
 	height: 2256px;
 }
 
+#top_menu{
+	height:435px;
+	width: 1200px;
+	background-color: #eee;
+}
+
 #logo{
 	float:left;
 	margin-left: 150px;
@@ -16,14 +22,64 @@ body{
 }
 
 #text_menu{
-	float:right;
+	float:left;
 	margin-top:62px;
+	margin-left:135px;
 	text-transform: uppercase;
 }
 .topMenuItem{
 	display:inline;
 	margin-left:45px;
 	font-weight: bold;
+	font-family: 'Arial';	
+	font-size:14px;
+}
+
+#logo-img{
+	position:relative;
+	margin-left:700px;
+	margin-top:60px;
+}
+
+#tit{
+	position: relative;
+	float: left;
+	margin-top: 74px;
+	margin-left: 160px;
+}
+
+#title{
+	position: relative;
 	font-family: 'Arial';
-	
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#subtitle{
+	position: relative;
+	font-family: 'Arial';
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 21px;
+}
+
+#butMore{
+
+	height:37px;
+	width:240px;
+	background-color:#f66;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-align: center;
+	margin:auto;
+	border-radius:4px;
+	line-height: 37px;
+}
+
+#rounds{
+	margin-top:-100px;
+	margin-left:100px;
+
 }
