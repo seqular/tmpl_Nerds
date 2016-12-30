@@ -9,6 +9,7 @@ body{
 	height:435px;
 	width: 1200px;
 	background-color: #eee;
+	margin-left: 10px;
 }
 
 #logo{
@@ -16,6 +17,7 @@ body{
 	margin-left: 150px;
 	margin-top:25px;
 	background-image: url('../img/nerds.png');
+	background-size: 139px 57px;
 	background-repeat: no-repeat;
 	width:140px;
 	height: 56px;
@@ -23,7 +25,7 @@ body{
 
 #text_menu{
 	float:left;
-	margin-top:62px;
+	margin-top:55px;
 	margin-left:135px;
 	text-transform: uppercase;
 }
@@ -32,34 +34,36 @@ body{
 	margin-left:45px;
 	font-weight: bold;
 	font-family: 'Arial';	
-	font-size:14px;
+	font-size:13px;
 }
 
 #logo-img{
 	position:relative;
-	margin-left:700px;
-	margin-top:60px;
+	margin-left:690px;
+	margin-top:53px;
 }
 
 #tit{
 	position: relative;
 	float: left;
-	margin-top: 74px;
-	margin-left: 160px;
+	margin-top: 72px;
+	margin-left: 149px;
 }
 
 #title{
 	position: relative;
 	font-family: 'Arial';
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 35px;
+	letter-spacing: -1px;
+	line-height: 38px;
 }
 
 #subtitle{
 	position: relative;
 	font-family: 'Arial';
-	font-size: 16px;
-	margin-top: 30px;
+	font-size: 16.5px;
+	margin-top: 18px;
 	margin-bottom: 30px;
 	line-height: 21px;
 }
@@ -73,13 +77,117 @@ body{
 	text-transform: uppercase;
 	font-family: sans-serif;
 	text-align: center;
-	margin:auto;
+
 	border-radius:4px;
 	line-height: 37px;
 }
 
 #rounds{
-	margin-top:-100px;
-	margin-left:100px;
+	margin-top: -42px;
+    left: 42px;
+    position: relative;
+}
 
+.blockT{
+	height: 300px;
+	margin-right: 80px;
+	float: left;
+}
+.blockT_title{
+	text-transform: uppercase;
+	margin-top: 26px;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+.blockT_text{
+	margin-top: 24px;
+    font-family: 'Arial';
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.blockT_button{
+	margin-top:30px;
+	font-family: 'Arial';
+	width:140px;
+	height: 38px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 38px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+#blockT_button_red{
+	background-color: #fb565a;
+}
+
+#blockT_button_green{
+	background-color: #00ca74;
+}
+
+#blockT_button_yellow{
+	background-color: #efc84a;
+}
+
+#hr1{
+
+	margin-top:80px;
+	color:#eee;
+	width: 880px;
+	margin-left: 160px;
+}
+
+.title_3{
+	font-size: 37px;
+    font-weight: bold;
+    font-family: 'Arial';
+	letter-spacing: -1.5px;
+    line-height: 41px;
+}
+
+.text_3{
+	margin-top: 11px;
+    font-family: 'Arial';
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.text_4{
+	margin-top: 44px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.ul1{
+	line-height: 44px;
+
+
+}
+
+.ul1 li{
+	list-style: none;
+    background: url(../img/marker.png) no-repeat 0 21px;
+    padding-left: 35px;
+}
+
+.logo2{
+	width: 185px;
+
+}
+
+.a1, .a2, .a3 {
+	float:left;
+}
+
+.hr2{
+	width:55px;
+}
+
+.block32{
+	float:left;
+	margin-top: 60px;
+	margin-left: 88px;
 }
